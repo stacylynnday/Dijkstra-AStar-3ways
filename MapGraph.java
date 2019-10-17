@@ -32,6 +32,9 @@ import util.GraphLoader;
  * Nodes in the graph are intersections between 
  *
  */
+
+//TODOs: create initialization methods and addNeighbors method
+
 public class MapGraph {
 	private HashMap<GeographicPoint, MapNode> vertices;
 	private HashSet<MapEdge> edges;
