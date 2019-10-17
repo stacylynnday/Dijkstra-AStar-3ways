@@ -781,9 +781,11 @@ public class MapGraph {
 		/* Use this code in Week 3 End of Week Quiz */
 		MapGraph theMap = new MapGraph();
 		System.out.print("Loading the map...");
-		GraphLoader.loadRoadMap("data/maps/utc.map", theMap);
+		// change map here and change start and end just below
+		GraphLoader.loadRoadMap("maps/utc.map", theMap);
 		System.out.println("DONE.");
-
+                
+		// change start and end if change map
 		GeographicPoint start = new GeographicPoint(32.8648772, -117.2254046);
 		GeographicPoint end = new GeographicPoint(32.8660691, -117.217393);
 		
